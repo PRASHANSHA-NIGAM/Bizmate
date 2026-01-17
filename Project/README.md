@@ -1,4 +1,5 @@
-BizMate | Financial Predictive Intelligence Platform
+                                      BIZMATE | FINANCIAL PREDICTIVE INTELLIGENCE PLATFORM 
+
 🚀 Overview
 BizMate is a high-performance stock price forecasting application built with Streamlit. It integrates real-time data acquisition, advanced feature engineering, and a multi-model machine learning ensemble to provide actionable market insights. The platform compares traditional statistical methods with deep learning architectures to help users understand market volatility.
 

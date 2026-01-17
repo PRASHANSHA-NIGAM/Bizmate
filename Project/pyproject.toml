@@ -1,19 +1,23 @@
-[project]
-name = "Bizmate"
+[tool.poetry]
+name = "bizmate"
 version = "0.1.0"
 description = "Stock Price Prediction Application"
-requires-python = ">=3.11"
-dependencies = [
-    "streamlit>=1.51.0",
-    "yfinance>=0.2.32",
-    "pandas>=2.1.0",
-    "numpy>=1.24.0",
-    "scikit-learn>=1.3.0",
-    "tensorflow>=2.15.0",
-    "plotly>=5.17.0",
-    "statsmodels>=0.14.0",
-    "matplotlib>=3.8.0",
-    "seaborn>=0.13.0",
-]
-[tool.poetry]
-package-mode = false
+authors = ["Prashansha Nigam"]
+package-mode = false 
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+streamlit = ">=1.51.0"
+yfinance = ">=0.2.32"
+pandas = ">=2.1.0"
+numpy = ">=1.24.0"
+scikit-learn = ">=1.3.0"
+tensorflow = ">=2.15.0"
+plotly = ">=5.17.0"
+statsmodels = ">=0.14.0"
+matplotlib = ">=3.8.0"
+seaborn = ">=0.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
